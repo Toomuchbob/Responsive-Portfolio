@@ -1,9 +1,13 @@
 html, body {
-    background:url('bg-export.png');
+    background:url('Images/bg-export.png');
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;
     background-size: auto;
+}
+
+img {
+    max-width: 100%;
 }
 
 .container {
