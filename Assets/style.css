@@ -4,6 +4,7 @@ html, body {
     -moz-background-size: auto;
     -o-background-size: auto;
     background-size: auto;
+    height: 100% !important;
 }
 
 img {
@@ -14,9 +15,10 @@ img {
     background-color: white;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    display: block;
+#page-content {
+  flex: 1 0 auto !important;
+}
+
+#sticky-footer {
+  flex-shrink: 0 !important;
 }
